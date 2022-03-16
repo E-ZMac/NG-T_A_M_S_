@@ -4,7 +4,7 @@ const Tools: React.FC = () => {
 
     return (
         <>
-            Welcome
+            <h1>Welcome</h1>
         </>
     )
 }

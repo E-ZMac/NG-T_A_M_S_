@@ -4,13 +4,15 @@
     "build": "next build",
     "lint:next": "next lint",
     "start": "next start",
-    "test": "jest"
+    "test": "jest",
+    "db:migrate": "prisma migrate dev --schema ./src/prisma/schema.prisma"
   },
   "dependencies": {
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "@mui/icons-material": "^5.5.0",
     "@mui/material": "^5.5.0",
+    "@prisma/client": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.2",
     "axios": "^0.26.0",
     "cypress": "^9.5.1",
