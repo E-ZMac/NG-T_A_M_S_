@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import React from 'react'
-import { Tools } from '../components/Tools'
-import 'react-toastify/dist/ReactToastify.css';
+import { Tools } from '../components/tools/Tools'
 
 
 
