@@ -6,15 +6,7 @@ import {
     Modal,
 } from '../lib/ui';
 
-function stateShareMemo(props) {
 
-}
-
-function hasStateChanged(prevProps, nextProps) {
-
-}
-
-export default React.memo(stateShareMemo, hasStateChanged)
 
 export const ModalTemplate = () => {
   const [open, setOpen] = useState<boolean>(false)
