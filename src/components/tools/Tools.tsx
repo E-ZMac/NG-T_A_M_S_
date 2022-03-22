@@ -2,7 +2,12 @@ import { ToolList } from './ToolList'
 import React, { useState } from 'react'
 import { 
     Button,
+    Box,
+    Typography,
+    Modal,
  } from '@mui/material'
+
+
 
 const toolsArray: Array<Tool> = [
     { name: 'init', partNumber: '1', serialNumber: '1', servicable: true }
@@ -36,7 +41,6 @@ export const Tools: React.FC = () => {
     return (
         <>
             <ToolList toolList={tools} isServicable={isServicable}/>
-            <Button variant="contained">New Tool</Button>
         </>
     )
 }
